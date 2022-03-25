@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "share url",
+  "description": "share url with QRCode",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ]
+}
